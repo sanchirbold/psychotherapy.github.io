@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'semantic-ui-css/semantic.min.css';
+
+@layer base{
+  html {
+    @apply font-mont;
+}
+} 
+
+body {
+  margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.popup_modal {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 1;
+  z-index: 5;
+  overflow: auto;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.popup_modal-content {
+  min-width: 320px;
+  background: #fff;
+  max-width: 900px;
+  margin: 70px auto;
+  position: relative;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}

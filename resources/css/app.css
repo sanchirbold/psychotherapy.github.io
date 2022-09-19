@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.flex_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+  }
+  
+  .box_shadow {
+    box-shadow: 6px 12px 32px rgba(0, 24, 40, 0.08), 5px 2px 24px rgba(0, 39, 64, 0.04), 5px 6px 8px rgba(0, 114, 188, 0.02)
+  }
+  
+  .banner {
+    background-color: linear-gradient(90deg, #004D80 0%, #0078C6 100%);
+  }
+  
+  ::placeholder {
+    color: #00121E66;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .fade-in-image {
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s;
+    -moz-animation: fadeIn 5s;
+    -o-animation: fadeIn 5s;
+    -ms-animation: fadeIn 5s;
+  }
+  @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+  }

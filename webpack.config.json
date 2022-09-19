@@ -1,0 +1,6 @@
+{
+externals: {
+    'react': 'React'
+},
+
+}
